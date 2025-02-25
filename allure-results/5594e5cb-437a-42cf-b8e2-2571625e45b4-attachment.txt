@@ -1,0 +1,7 @@
+{
+  id: 35,
+  name: 'Regular Fit Straight Jeans',
+  price: 'Rs. 1200',
+  brand: 'H&M',
+  category: { usertype: { usertype: 'Men' }, category: 'Jeans' }
+}

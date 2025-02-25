@@ -1,0 +1,33 @@
+200
+[
+  {
+    id: '3',
+    name: 'Apple iPhone 12 Pro Max',
+    data: { color: 'Cloudy White', 'capacity GB': 512 }
+  },
+  {
+    id: '5',
+    name: 'Samsung Galaxy Z Fold2',
+    data: { price: 689.99, color: 'Brown' }
+  },
+  {
+    id: '10',
+    name: 'Apple iPad Mini 5th Gen',
+    data: { Capacity: '64 GB', 'Screen size': 7.9 }
+  }
+]
+{
+  date: 'Fri, 21 Feb 2025 10:27:18 GMT',
+  'content-type': 'application/json',
+  'transfer-encoding': 'chunked',
+  connection: 'keep-alive',
+  vary: 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers',
+  'cf-cache-status': 'DYNAMIC',
+  'report-to': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=hj7SriH4SWNSyveiGOFMSqrJ%2FozpZzhvQwQ%2BVmq7yp3bj45RPQ%2F2npPS2fcyPAeFT%2B7LvgjIXgTdcr%2FnTc3u%2B19%2B8j%2Fq8aAnheKMEJHrxsbp25e6nsEmZsPHehIQs9JFIzCdRK2l"}],"group":"cf-nel","max_age":604800}',
+  nel: '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}',
+  server: 'cloudflare',
+  'cf-ray': '91560b05fa6a3a1b-BOM',
+  'content-encoding': 'br',
+  'alt-svc': 'h3=":443"; ma=86400',
+  'server-timing': 'cfL4;desc="?proto=TCP&rtt=14171&min_rtt=14000&rtt_var=4238&sent=4&recv=6&lost=0&retrans=2&sent_bytes=2834&recv_bytes=747&delivery_rate=195874&cwnd=248&unsent_bytes=0&cid=e5e44302622553e0&ts=169&x=0"'
+}

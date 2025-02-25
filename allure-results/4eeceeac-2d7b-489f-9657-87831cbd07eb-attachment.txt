@@ -1,0 +1,12 @@
+[
+  {
+    id: 33,
+    name: 'Soft Stretch Jeans',
+    price: 'Rs. 799',
+    brand: 'Polo',
+    category: { usertype: [Object], category: 'Jeans' }
+  }
+]
+jsonresponse =[object Object]
+Headers =[object Object]
+200

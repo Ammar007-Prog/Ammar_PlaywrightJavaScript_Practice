@@ -1,0 +1,16 @@
+APIResponse: 200 
+  Date: Fri, 21 Feb 2025 12:20:08 GMT
+  Content-Type: application/json
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Origin
+  Vary: Access-Control-Request-Method
+  Vary: Access-Control-Request-Headers
+  cf-cache-status: DYNAMIC
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=oYUBUvBHQ7mUWQ0ov4qLNPN0LEcvnOdM%2BzORKUkbg8SVERscI7xoc2xAlIie39Y8MoKGJF6sztX0b0nGNmNExotQN9pEuT2TaR4pXrJN%2Bt08T1dMYXSrmqqn7oydq1IjQpXJ3H7H"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 9156b0503f5a8602-BOM
+  Content-Encoding: br
+  alt-svc: h3=":443"; ma=86400
+  server-timing: cfL4;desc="?proto=TCP&rtt=18319&min_rtt=13328&rtt_var=11732&sent=8&recv=9&lost=0&retrans=0&sent_bytes=4401&recv_bytes=1071&delivery_rate=216620&cwnd=249&unsent_bytes=0&cid=bb68715328ff1338&ts=404&x=0"
