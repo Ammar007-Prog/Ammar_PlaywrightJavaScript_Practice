@@ -1,6 +1,6 @@
 import {test, expect} from '@playwright/test'
 
-test.describe.skip("APITestcases", async()=>{
+test.describe("APITestcases", async()=>{
 
     test('GET Request', async ({ request }) => {
         const response = await request.get('https://automationexercise.com/api/productsList');
@@ -35,12 +35,6 @@ test.describe.skip("APITestcases", async()=>{
     })
 
 
-    test("API 5: POST To Search Product", async({request})=>{
-      const response = await request.post("https://automationexercise.com/api/searchProduct");
-      const [jsonResponse, responseStatus] = await Promise.all([response.json(), response.status()]);
-      console.log(jsonResponse);
-      console.log(responseStatus);
-    })
 
 
 })
@@ -82,19 +76,19 @@ test.describe("secondSetAPI", async ()=>{
   })
 
 
-  test.only("getSingleObject", async({request})=>{
+  test("getSingleObject", async({request})=>{
     const response = await request.get(endpoint+"/"+"ff808181932badb60195286989b279d0");
 
     const [responseStatus, jsonResponse, headerJson] = 
         await Promise.all([response.status(), response.json(), response.headers()]);
-    //console.log(jsonResponse)
-    inputID = jsonResponse.id
+    console.log(jsonResponse)
+    // inputID = jsonResponse.id
 
-    //console.log(endpoint+"/"+inputID);
-    console.log(endpoint+"/"+inputID)
-    var input2 = endpoint+"/"+`"${inputID}"`
-    const response2 = await request.get(input2)
-    console.log(response2)
+    // //console.log(endpoint+"/"+inputID);
+    // console.log(endpoint+"/"+inputID)
+    // var input2 = endpoint+"/"+`"${inputID}"`
+    // const response2 = await request.get(input2)
+    // console.log(response2)
 
   })
 

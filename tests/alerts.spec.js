@@ -15,12 +15,12 @@ test.describe("firstGroup", ()=>{
         // page.on('dialog', dialog => dialog.accept());
         // await page.locator('#alertbtn').click({timeout:3000});
 
-        page.on('dialog', dialog=>{
-            //expect(dialog.message()).toBe("Hello , share this practice page and share your knowledge")
-            dialog.accept()
-        })
+        // page.on('dialog', dialog=>{
+        //     //expect(dialog.message()).toBe("Hello , share this practice page and share your knowledge")
+        //     dialog.accept()
+        // })
 
-        await page.locator('#alertbtn').click({timeout:3000});
+        // await page.locator('#alertbtn').click({timeout:3000});
 
         // await page.locator("//input[@value='Alert']").click
         // await page.waitForTimeout(3000)
@@ -30,8 +30,8 @@ test.describe("firstGroup", ()=>{
         await page.locator("#dropdown-class-example").selectOption({value:"option2"})
         
         page.on('dialog', dialog=>{
-            expect(dialog.message()).toBe("Hello , Are you sure you want to confirm?")
-            dialog.dismiss() 
+            expect(dialog.message()).toBe("Hello , share this practice page and share your knowledge")
+            dialog.accept() 
         })
         
         await page.locator('#alertbtn').click({timeout:3000});

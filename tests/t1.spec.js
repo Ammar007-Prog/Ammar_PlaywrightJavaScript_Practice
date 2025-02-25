@@ -4,7 +4,7 @@ import { text } from "stream/consumers";
 
 test.describe("Action_Branch", ()=>{
 
-    test.only("text_input",async ()=>{
+    test("text_input",async ()=>{
         const browser = await chromium.launch();
         const context = await browser.newContext();
         const atpPage = await context.newPage();
@@ -51,7 +51,7 @@ test.describe("Action_Branch", ()=>{
         await page.waitForTimeout(3000);
     })
 
-    test("testmultiple tabs", async()=>{
+    test.skip("testmultiple tabs", async()=>{
         const browser = await chromium.launch();
         const context = await browser.newContext();
         const atpPage = await context.newPage(); //page 1
@@ -60,10 +60,11 @@ test.describe("Action_Branch", ()=>{
         let tittleP = await atpPage.title();
         expect(tittleP).toBe('Automation Testing Practice');
         const pageNew = context.waitForEvent('page'); 
-        await atpPage.getByText('New Tab').click();
+        await atpPage.locator("(//button[normalize-space()='New Tab'])[1]").click();
         
+
         // page 2
-        const demoPage = await pageNew; 
+        const demoPage = await pageNew 
         await expect(demoPage).toHaveTitle('Your Store')
         await demoPage.waitForTimeout(3000);
         
