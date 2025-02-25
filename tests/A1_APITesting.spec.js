@@ -92,7 +92,7 @@ test.describe("secondSetAPI", async ()=>{
 
     //console.log(endpoint+"/"+inputID);
     console.log(endpoint+"/"+inputID)
-    var input2 = String(endpoint+"/"+inputID)
+    var input2 = endpoint+"/"+`"${inputID}"`
     const response2 = await request.get(input2)
     console.log(response2)
 
