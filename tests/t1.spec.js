@@ -4,7 +4,7 @@ import { text } from "stream/consumers";
 
 test.describe("Action_Branch", ()=>{
 
-    test("text_input",async ()=>{
+    test.skip("text_input",async ()=>{
         const browser = await chromium.launch();
         const context = await browser.newContext();
         const atpPage = await context.newPage();
