@@ -324,9 +324,9 @@ todos = [
     { id: 3, title: 'Learn JavaScript', completed: false },
   ];
   
-  const newTodos = todos.with(1, { ...todos[1], completed: true });
+const newTodos = todos.with(1, { ...todos[1], completed: true });
   
-  console.log({ newTodos });
+console.log({ newTodos });
 
 
 
