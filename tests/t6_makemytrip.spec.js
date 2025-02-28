@@ -1,17 +1,18 @@
-import {test, expect, context} from '@playwright/test'
+import {test, expect, chromium} from '@playwright/test'
 
 
-test("makemytrip", async ({page})=>{
+test.fixme("makemytrip", async ()=>{
+    const browser = await chromium.launch();
+    const context = await browser.newContext();
+    const page = await context.newPage();
     await page.goto("https://www.makemytrip.com/");
     //await page.screenshot({path:"tests/resultT/testSc.png", fullPage: true});
     await page.locator("//span[@data-cy='closeModal']").click()
-    await page.waitForLoadState()
-
+    //await page.waitForLoadState()
     //const testAreaScreenshot = await page.getByRole('navigation').screenshot({path : "test3.png"})
     //await expect(page).toHaveScreenshot("D:/TestProject/tests/t6_makemytrip.spec.js-snapshots/test2-chromium-win32.png")
     //await page.getByRole('navigation').screenshot({path : "test2.png"})
     await page.waitForTimeout(3000);
-
 })
 
 // test('test', async ({ page }) => {
