@@ -1,0 +1,87 @@
+200
+[
+  {
+    id: '1',
+    name: 'Google Pixel 6 Pro',
+    data: { color: 'Cloudy White', capacity: '128 GB' }
+  },
+  { id: '2', name: 'Apple iPhone 12 Mini, 256GB, Blue', data: null },
+  {
+    id: '3',
+    name: 'Apple iPhone 12 Pro Max',
+    data: { color: 'Cloudy White', 'capacity GB': 512 }
+  },
+  {
+    id: '4',
+    name: 'Apple iPhone 11, 64GB',
+    data: { price: 389.99, color: 'Purple' }
+  },
+  {
+    id: '5',
+    name: 'Samsung Galaxy Z Fold2',
+    data: { price: 689.99, color: 'Brown' }
+  },
+  {
+    id: '6',
+    name: 'Apple AirPods',
+    data: { generation: '3rd', price: 120 }
+  },
+  {
+    id: '7',
+    name: 'Apple MacBook Pro 16',
+    data: {
+      year: 2019,
+      price: 1849.99,
+      'CPU model': 'Intel Core i9',
+      'Hard disk size': '1 TB'
+    }
+  },
+  {
+    id: '8',
+    name: 'Apple Watch Series 8',
+    data: { 'Strap Colour': 'Elderberry', 'Case Size': '41mm' }
+  },
+  {
+    id: '9',
+    name: 'Beats Studio3 Wireless',
+    data: {
+      Color: 'Red',
+      Description: 'High-performance wireless noise cancelling headphones'
+    }
+  },
+  {
+    id: '10',
+    name: 'Apple iPad Mini 5th Gen',
+    data: { Capacity: '64 GB', 'Screen size': 7.9 }
+  },
+  {
+    id: '11',
+    name: 'Apple iPad Mini 5th Gen',
+    data: { Capacity: '254 GB', 'Screen size': 7.9 }
+  },
+  {
+    id: '12',
+    name: 'Apple iPad Air',
+    data: { Generation: '4th', Price: '419.99', Capacity: '64 GB' }
+  },
+  {
+    id: '13',
+    name: 'Apple iPad Air',
+    data: { Generation: '4th', Price: '519.99', Capacity: '256 GB' }
+  }
+]
+{
+  date: 'Fri, 21 Feb 2025 10:23:30 GMT',
+  'content-type': 'application/json',
+  'transfer-encoding': 'chunked',
+  connection: 'keep-alive',
+  vary: 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers',
+  'cf-cache-status': 'DYNAMIC',
+  'report-to': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=iQ196J2yP6zhnG3c4eb7NdPebTVALNNg%2FpcYliXFT1wlHL4jDX0Oobn06a%2BlM8Y6%2BNsR4dcFkMZV7V9Y27B5pKNcptG1%2FSRDL3yicVVCgbqDKqYDca%2BzSzqV%2FcXi%2FGvYQFSVEWGb"}],"group":"cf-nel","max_age":604800}',
+  nel: '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}',
+  server: 'cloudflare',
+  'cf-ray': '91560577ab22f30b-BOM',
+  'content-encoding': 'br',
+  'alt-svc': 'h3=":443"; ma=86400',
+  'server-timing': 'cfL4;desc="?proto=TCP&rtt=12355&min_rtt=10994&rtt_var=5806&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2834&recv_bytes=731&delivery_rate=133143&cwnd=238&unsent_bytes=0&cid=e96bf6a554700fb1&ts=171&x=0"'
+}

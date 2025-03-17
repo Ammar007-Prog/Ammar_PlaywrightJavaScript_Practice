@@ -1,0 +1,17 @@
+https://api.restful-api.dev/objects/ff808181932badb60195286989b279d0
+APIResponse: 404 
+  Date: Fri, 21 Feb 2025 13:19:46 GMT
+  Content-Type: application/json
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Origin
+  Vary: Access-Control-Request-Method
+  Vary: Access-Control-Request-Headers
+  cf-cache-status: DYNAMIC
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=k1RAlEKc4Y3HoaNFimhHbPY9oWPiZ8mectsi2yB4gO8j%2BXbqxCJTLjiBqR4u32%2BPcAsbQWpb6xSQMTUsL2qjCe4oD8I1vsRbM0lzoDvejor75CrSVUSW1VM%2FHefuVzJ8Bs27MwPD"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 915707a8e93c3b28-BOM
+  Content-Encoding: br
+  alt-svc: h3=":443"; ma=86400
+  server-timing: cfL4;desc="?proto=TCP&rtt=24668&min_rtt=19851&rtt_var=12707&sent=8&recv=9&lost=0&retrans=0&sent_bytes=4375&recv_bytes=1077&delivery_rate=144065&cwnd=221&unsent_bytes=0&cid=b0bf792bd0827f53&ts=372&x=0"

@@ -33,11 +33,8 @@ test.describe("firstGroup", ()=>{
             expect(dialog.message()).toBe("Hello , share this practice page and share your knowledge")
             dialog.accept() 
         })
-        
         await page.locator('#alertbtn').click({timeout:3000});
-
         await page.waitForTimeout(3000)
-
         await page.locator("#dropdown-class-example").selectOption({value:"option1"})
 
     })

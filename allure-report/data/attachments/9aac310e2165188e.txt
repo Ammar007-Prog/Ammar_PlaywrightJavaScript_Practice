@@ -1,0 +1,44 @@
+[
+  {
+    id: 33,
+    name: 'Soft Stretch Jeans',
+    price: 'Rs. 799',
+    brand: 'Polo',
+    category: { usertype: [Object], category: 'Jeans' }
+  },
+  {
+    id: 35,
+    name: 'Regular Fit Straight Jeans',
+    price: 'Rs. 1200',
+    brand: 'H&M',
+    category: { usertype: [Object], category: 'Jeans' }
+  },
+  {
+    id: 37,
+    name: 'Grunt Blue Slim Fit Jeans',
+    price: 'Rs. 1400',
+    brand: 'Polo',
+    category: { usertype: [Object], category: 'Jeans' }
+  },
+  {
+    id: 38,
+    name: 'Rose Pink Embroidered Maxi Dress',
+    price: 'Rs. 2300',
+    brand: 'Madame',
+    category: { usertype: [Object], category: 'Dress' }
+  },
+  {
+    id: 39,
+    name: 'Cotton Silk Hand Block Print Saree',
+    price: 'Rs. 3000',
+    brand: 'Biba',
+    category: { usertype: [Object], category: 'Saree' }
+  },
+  {
+    id: 40,
+    name: 'Rust Red Linen Saree',
+    price: 'Rs. 3500',
+    brand: 'Biba',
+    category: { usertype: [Object], category: 'Saree' }
+  }
+]

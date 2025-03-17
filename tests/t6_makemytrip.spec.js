@@ -65,3 +65,18 @@ test.fixme("makemytrip", async ()=>{
 
 
 // });
+
+test('Visual Comparison Test Demo', async ({ page }) => {
+    await page.goto('https://playwright.dev');    
+    expect(await page.screenshot()).toMatchSnapshot();
+});
+
+
+test.only('navigation test', async ({ page }) => {
+    await page.goto('https://playwright.dev');    
+    await page.locator("//*[@id='__docusaurus']/nav/div[1]/div[1]/a[2]").click();
+    const optionsDropdown = await page.locator("(//nav[@aria-label='Docs sidebar'])").textContent();
+    console.log(optionsDropdown)
+    await page.waitForTimeout(3000)
+});
+
