@@ -8,3 +8,5 @@ node_modules/
 /allure-results/
 /tests/t6_makemytrip.spec.js-snapshots/
 /tests/resultT/
+/allure-report/
+/allure-results/
