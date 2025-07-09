@@ -51,7 +51,7 @@ test.describe("Action_Branch", ()=>{
         await page.waitForTimeout(3000);
     })
 
-    test.skip("testmultiple tabs", async()=>{
+    test.only("testmultiple tabs", async()=>{
         const browser = await chromium.launch();
         const context = await browser.newContext();
         const atpPage = await context.newPage(); //page 1
@@ -65,7 +65,7 @@ test.describe("Action_Branch", ()=>{
 
         // page 2
         const demoPage = await pageNew 
-        await expect(demoPage).toHaveTitle('Your Store')
+        await expect(demoPage).toHaveTitle('SDET-QA Blog')
         await demoPage.waitForTimeout(3000);
         
         // to switch particular page
